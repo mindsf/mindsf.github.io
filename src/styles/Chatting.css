@@ -1,0 +1,79 @@
+.chat-room {
+  height: 100vh;
+  background-color: white;
+}
+/* 채팅 리스트 디자인 */
+.chat-room > .chat-list {
+  height: 75vh;
+}
+.chat-room > .chat-list > .user {
+  margin-top: 10px;
+}
+.chat-room > .chat-list > .user > .chat-icon {
+  /* position: relative; */
+  /* left: 10px; */
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+
+}
+.chat-room > .chat-list > .user > .chat-text {
+  display: inline-block;
+  height: 100%;
+  background-color: #D3D3D3;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+
+.mine {
+  text-align: right;
+}
+
+
+
+
+
+/* 채팅 보내기 디자인 */
+.chat-room > .chat-send {
+  position: fixed;
+  padding-top: 25px;
+  margin: 0;
+  text-align: center;
+  border-top: 2px solid white;
+  background-color: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  padding-left: 0;
+}
+.chat-room > .chat-send > #chat-msg {
+  width: 80%;
+  height: 190%;
+  transform: translateY(-30px);
+  border: none;
+  resize: none;
+  border: 1px solid black;
+  font-size: 30px;
+  border-radius: 3px;
+}
+.chat-room > .chat-send #chat-msg:hover {
+  outline: none;
+}
+.chat-room > .chat-send > #chat-button {
+  transform: translateY(-50px);
+  background-color: yellow;
+  bottom: 3px;
+  border: none;
+  height: 215%;
+  border: 1px solid black;
+  width: 18%;
+  border-radius: 3px;
+}

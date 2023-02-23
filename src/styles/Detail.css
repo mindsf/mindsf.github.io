@@ -1,0 +1,41 @@
+/* 디테일 페이지의 내용 디자인 */
+#detail > #detail-img {
+    width: 100vw;
+    height: auto;
+}
+#detail-name {
+    width: 100%;
+    height: 5vh;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+    border-bottom: 1px solid gray;
+}
+
+#detail-price {
+    width: 100%;
+    height: 5vh;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+#detail-content {
+    width: 100%;
+    resize: none;
+    font-size: 20px;
+    height: 30vh;
+    border: none;
+    font-weight: 300;
+}
+/* 디테일 페이지에서 채팅버튼 디자인 */
+#detail > #detail-button {
+    width: 100vw;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 100;
+    background-color: #81C147;
+}

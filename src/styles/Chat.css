@@ -1,0 +1,10 @@
+.chatList {
+    text-align: center;
+    height: 100px;
+    border-bottom: 3px solid black;
+}
+ .chatTitle {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+ }

@@ -1,0 +1,51 @@
+.register-wrap {
+    margin: 10px auto;
+    width: 300px;
+    text-align: center;
+    color:black;
+}
+
+/* 회원가입 제목 디자인 */
+.register-wrap .register-title {
+    margin-bottom: 50px;
+}
+
+/* 회원가입 내용 디자인 */
+.register-content > p > #id{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.register-content > p > #id:hover {
+    outline: none;
+}
+.register-content > p > #psword{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.register-content > p > #psword:hover {
+    outline: none;
+}
+.register-wrap #register {
+    width: 100%;
+    height: 50px;
+    transform: translateX(+3px);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #81C147;
+    border-radius: 10px;
+    color: black;
+ }
